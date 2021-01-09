@@ -1,0 +1,93 @@
+{
+  "prettier.singleQuote": true, //使用单引号
+  "prettier.semi": true, //结尾自动加;号
+  "vetur.format.defaultFormatterOptions": {
+    "prettier": {
+      "semi": true,
+      "singleQuote": true //用单引号
+    }
+  }, //优先使用prettier的验证规则
+  "vetur.format.defaultFormatter.js": "prettier-eslint",
+  // "vetur.format.defaultFormatter.html": "js-beautify-html",
+  // 在方法括号之间插入空格
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true, //每次保存自动格式化
+  "files.autoSave": "off",
+  "editor.formatOnSave": true, // #每次保存的时候将代码按eslint格式进行修复
+  // 每次保存的时候将代码按eslint格式进行修复，js代码格式化靠这个设置
+  // "eslint.validate": [
+  //   "javascript",
+  //   "javascriptreact",
+  //   {
+  //     "language": "vue",
+  //     "autoFix": false
+  //   }
+  // ],
+  "eslint.options": {
+    "plugins": [
+      "html"
+    ]
+  },
+  "editor.mouseWheelZoom": true, //鼠标滚动缩放
+  "editor.fontSize": 18,
+  "workbench.tree.indent": 12,
+  "workbench.settings.editor": "json",
+  "window.zoomLevel": 1,
+  "open-in-browser.default": "chrome",
+  "breadcrumbs.enabled": true,
+  "editor.wordWrap": "on",
+  "editor.tabSize": 4,
+  "editor.formatOnPaste": true,
+  "editor.renderControlCharacters": true,
+  "editor.renderWhitespace": "boundary",
+  "editor.fontFamily": "'Consolas', 'Droid Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
+  "editor.fontLigatures": true,
+  "editor.cursorBlinking": "smooth",
+  "editor.minimap.enabled": true,
+  "editor.minimap.renderCharacters": false,
+  "explorer.confirmDragAndDrop": false,
+  "extensions.autoUpdate": false,
+  "files.insertFinalNewline": true,
+  "git.autofetch": true,
+  "git.path": "F:\\Program Files\\Git\\cmd\\git.exe",
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true
+  },
+  "typescript.locale": "en",
+  "window.titleBarStyle": "custom",
+  "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
+  "workbench.activityBar.visible": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "[vue]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": false
+    },
+    "editor.defaultFormatter": "numso.prettier-standard-vscode"
+  },
+  "explorer.confirmDelete": false,
+  "prettier.printWidth": 2000,
+  "prettier.proseWrap": "never",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "jshint.enable": false,
+  "eslint.enable": false,
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+}
